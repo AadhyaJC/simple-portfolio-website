@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+        font-family: "IM Fell French Canon SC", serif;
+      
+}
+.container{
+    padding:50px;
+}
+.s-one{
+    background-color: black;
+    color:blueviolet;
+    padding:30px;
+}
+.s-one__contact{
+    background-color: cadetblue;
+    color:black;
+    text-decoration: none;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top:10px;
+    display: inline-block;
+}
+.s-one__name{
+    font-size: 50px;
+}
+.s-one__role{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.s-two,.s-three,.s-four,.s-five{
+    margin-top: 20px;
+}
+.s-two__desc,.s-three__desc,.s-four__desc,.s-five__desc{
+    margin-top: 10px;
+}
+.s-five{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+.s-five__title a{
+    color:hotpink;
+}
+.s-three li,.s-four li{
+    list-style:none;
+}
+.s-three{
+    background-color: #50AFC7;
+    color:black;
+    display:inline-block;
+    padding:20px;
+    height:200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.s-four{
+    background-color: #5071C7;
+    color:black;
+    display:inline-block;
+    padding:20px;
+    height:200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.contact-form{
+    margin-top: 20px;
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top:10px;
+}
+.contact-form__input{
+    padding:10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__textarea{
+    padding:10px;
+    border: none;
+    border: solid black 1px;
+}
+.contact-form__submit{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:darkcyan ;
+    color: black;
+    border:none;
+}
